@@ -84,7 +84,7 @@ The main goal of this project is to mantain a trustful source of Python GraphQL 
 
 4. Enjoy ;)
    ```sh
-   python main.py
+   python3 main.py
    <...>
    ```
 
