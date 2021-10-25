@@ -79,6 +79,7 @@ The main goal of this project is to mantain a trustful source of Python GraphQL 
    ```sh
    export HARNESS_GRAPHQL_ENDPOINT=https://app.harness.io/gateway/api/graphql?accountId=<your_acc>
    export HARNESS_GRAPHQL_API_KEY=<YOUR_API_KEY>
+   export HARNESS_GQL_CSV_NAME=<full_csv_path>
    ```
 
 4. Enjoy ;)
