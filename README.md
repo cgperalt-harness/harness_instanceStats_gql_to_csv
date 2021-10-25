@@ -66,7 +66,7 @@ The main goal of this project is to mantain a trustful source of Python GraphQL 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/gabrielcerioni/harness_graphql_labs.git
+   git clone https://github.com/gabrielcerioni/harness_instanceStats_gql_to_csv.git
    ```
 2. Install the project dependecies (very simple stuff, meant to deal with requests, json, html)
    ```sh
@@ -116,7 +116,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Gabriel Cerioni - [@gabs.tar.gz](https://www.instagram.com/gabs.tar.gz/) - gacerioni@gmail.com
 
-Project Link: [https://github.com/gabrielcerioni/harness_graphql_labs/](https://github.com/gabrielcerioni/harness_graphql_labs/)
+Project Link: [https://github.com/gabrielcerioni/harness_instanceStats_gql_to_csv/](https://github.com/gabrielcerioni/harness_instanceStats_gql_to_csv/)
 
 <!-- Tech Stack -->
 ## Tech Stack
