@@ -22,13 +22,11 @@ from gql.transport.requests import RequestsHTTPTransport
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # CURRENTLY, PLEASE PUT THE CSV FILE NAME HERE
-OUTPUT_CSV_NAME_CONST = "temp_instanceStats_parsed.csv"
 
-API_KEY = "U1NIeUpod2tTMXltOXdTTEd5dzJhdzo6S3RoenRKY0UzOFpUS3kyU0U2RXJyOTN2aWltTWI4eWpHUjFKeWN1bHJpT0RMenJUUTkyVjllQlNXbzdReVpJMUM3UXVsT1hrb2hkWGFBZTM="
-API_ENDPOINT = "https://app.harness.io/gateway/api/graphql?accountId=SSHyJhwkS1ym9wSLGyw2aw"
-#API_KEY = os.environ.get('HARNESS_GRAPHQL_API_KEY')
-#API_ENDPOINT = os.environ.get('HARNESS_GRAPHQL_ENDPOINT')
-
+API_KEY = os.environ.get('HARNESS_GRAPHQL_API_KEY')
+API_ENDPOINT = os.environ.get('HARNESS_GRAPHQL_ENDPOINT')
+#OUTPUT_CSV_NAME_CONST = "temp_instanceStats_parsed.csv"
+OUTPUT_CSV_NAME_CONST = os.environ.get('HARNESS_GQL_CSV_NAME')
 
 def generic_graphql_query(query):
     req_headers = {
