@@ -67,10 +67,13 @@ The main goal of this project is to mantain a trustful source of Python GraphQL 
 1. Clone the repo
    ```sh
    git clone https://github.com/gabrielcerioni/harness_instanceStats_gql_to_csv.git
+   cd harness_instanceStats_gql_to_csv
    ```
 2. Install the project dependecies (very simple stuff, meant to deal with requests, json, html)
    ```sh
    pip install -r requirements.txt
+   <OR>
+   python3 -m pip install -r requirements.txt
    ```
 3. Export the required variables (Just to avoid Secrets, KMS, Vaults, etc, to keep this project simple)
    ```sh
