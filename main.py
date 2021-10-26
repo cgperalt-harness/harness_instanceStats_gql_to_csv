@@ -5,7 +5,7 @@ __credits__ = ["Gabriel Cerioni"]
 __license__ = "GPL"
 __version__ = "0.0.1"
 __maintainer__ = "Gabriel Cerioni"
-__email__ = "gabriel.ceriobi@harness.io"
+__email__ = "gabriel.cerioni@harness.io"
 __status__ = "Brainstorming Phase with CSM - DEV/STG/PRD is not applicable"
 
 import os
