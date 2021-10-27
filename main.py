@@ -21,7 +21,6 @@ from gql.transport.requests import RequestsHTTPTransport
 # this is not working anymore - requests_logger.setLevel(logging.WARNING)
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-# CURRENTLY, PLEASE PUT THE CSV FILE NAME HERE
 
 API_KEY = os.environ.get('HARNESS_GRAPHQL_API_KEY')
 API_ENDPOINT = os.environ.get('HARNESS_GRAPHQL_ENDPOINT')
